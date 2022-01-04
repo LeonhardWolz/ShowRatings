@@ -1,5 +1,6 @@
 from PIL import Image, ImageDraw, ImageFont, ImageFilter
 from imdb import IMDb
+import os
 
 
 class ImageGenerator:
@@ -28,6 +29,10 @@ class ImageGenerator:
     def generate(self):
         ratings, show_title, highest_lowest = self.get_imdb_data()
         image = self.create_image(ratings, show_title, highest_lowest)
+
+        if not os.path.exists("images/"):
+            os.mkdir("images/")
+
         image.save("images/" + show_title.replace(" ", "_") + "_IMDB_Ratings.png")
 
     def get_imdb_data(self):
