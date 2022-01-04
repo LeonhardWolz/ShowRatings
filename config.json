@@ -1,0 +1,89 @@
+{
+  "shows": [
+    {
+      "Title": "The Office",
+      "IMDB_ID": "0386676",
+      "BackgroundImage": "resources/TOBack.jpg"
+    },
+    {
+      "Title": "The Walking Dead",
+      "IMDB_ID": "1520211",
+      "BackgroundImage": "resources/TWDBack.jpg"
+    },
+    {
+      "Title": "Breaking Bad",
+      "IMDB_ID": "0903747",
+      "BackgroundImage": "resources/BBBack.jpg"
+    },
+    {
+      "Title": "Community",
+      "IMDB_ID": "1439629",
+      "BackgroundImage": "resources/CBack.jpg"
+    },
+    {
+      "Title": "House",
+      "IMDB_ID": "0412142",
+      "BackgroundImage": "resources/HBack.jpg"
+    },
+    {
+      "Title": "How I Met Your Mother",
+      "IMDB_ID": "0460649",
+      "BackgroundImage": "resources/HIMYMBack.jpg"
+    },
+    {
+      "Title": "Friends",
+      "IMDB_ID": "0108778",
+      "BackgroundImage": "resources/FBack.jpg"
+    },
+    {
+      "Title": "Better Call Saul",
+      "IMDB_ID": "3032476",
+      "BackgroundImage": "resources/BCSBack.jpg"
+    },
+    {
+      "Title": "Bosch",
+      "IMDB_ID": "3502248",
+      "BackgroundImage": "resources/BBack.jpg"
+    },
+    {
+      "Title": "The Mentalist",
+      "IMDB_ID": "1196946",
+      "BackgroundImage": "resources/TMBack.jpg"
+    },
+    {
+      "Title": "Stranger Things",
+      "IMDB_ID": "4574334",
+      "BackgroundImage": "resources/STBack.jpg"
+    },
+    {
+      "Title": "Rick and Morty",
+      "IMDB_ID": "2861424",
+      "BackgroundImage": "resources/RAMBack.jpg"
+    },
+    {
+      "Title": "Game of Thrones",
+      "IMDB_ID": "0944947",
+      "BackgroundImage": "resources/GOTBack.jpg"
+    },
+    {
+      "Title": "Dexter",
+      "IMDB_ID": "0773262",
+      "BackgroundImage": "resources/DBack.jpg"
+    },
+    {
+      "Title": "Brooklyn Nine-Nine",
+      "IMDB_ID": "2467372",
+      "BackgroundImage": "resources/B99Back.jpg"
+    },
+    {
+      "Title": "Parks and Recreation",
+      "IMDB_ID": "1266020",
+      "BackgroundImage": "resources/PARBack.jpg"
+    },
+    {
+      "Title": "Criminal Minds",
+      "IMDB_ID": "0452046",
+      "BackgroundImage": "resources/CMBack.jpg"
+    }
+  ]
+}
