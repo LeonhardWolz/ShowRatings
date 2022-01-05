@@ -1,6 +1,8 @@
+import re
+import os
+
 from PIL import Image, ImageDraw, ImageFont, ImageFilter
 from imdb import IMDb
-import os
 
 
 class ImageGenerator:
@@ -33,7 +35,7 @@ class ImageGenerator:
         if not os.path.exists("images/"):
             os.mkdir("images/")
 
-        image.save("images/" + show_title.replace(" ", "_") + "_IMDB_Ratings.png")
+        image.save("images/" + re.sub("[^a-zA-Z0-9\n]", "_", show_title) + "_IMDB_Ratings.png")
 
     def get_imdb_data(self):
         ratings = {}
